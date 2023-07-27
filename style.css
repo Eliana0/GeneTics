@@ -1,0 +1,378 @@
+                                        /* HEADER */
+
+header{
+    background: #E1DACC;
+    width: 100%;
+    height: 90px;
+    flex-shrink: 0;
+}
+.logoHeader{
+    display: flex;
+    margin-left: 3%;
+}
+.logoHeader h1{
+    display: flex;
+    width: 321px;
+    height: 30px;
+    margin-top: 2%;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+
+    color: #AA998C;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 128.164%;
+}
+.logoHeader h2{
+    display: flex;
+    width: 521px;
+    height: 30px;
+    margin-top: 2%;
+    margin-left: 20%;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+
+    color: #AA998C;
+    text-align: right;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 128.164%;
+}
+.logo{
+    width: 89px;
+    height: 89px;
+    flex-shrink: 0;
+}
+
+header nav{
+    width: 100%;
+    height: 60px;
+    border: 1px solid #B1A296;
+    background: #FFFBF2;
+}
+
+header nav ul a{
+    text-decoration: none;
+    width: 164px;
+    height: 60px;
+    margin-left: 45px;
+    flex-shrink: 0;
+
+    color: #B1A296;
+    text-align: center;
+/* Botón/Nav bar */
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+header nav ul a:hover{
+    color: black;
+}
+                                            /* PÁGINA PRINCIPAL */
+.home{
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.home .textHome{
+    width: 796px;
+    height: 169px;
+    flex-shrink: 0;
+    margin-top: 10%;
+    padding: 5%;
+
+    color: #B1A296;
+    /* H2/Home */
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 128.164%;
+}
+.home div .buttonHome{
+    width: 200px;
+    height: 48px;
+    flex-shrink: 0;
+    
+    color: #FFFBF2;
+    text-align: center;
+/* Botón/Principal */
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 128.164%; 
+    border: transparent;
+
+    display: flex;
+    width: 157px;
+    height: 27.429px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    margin-left: 35%;
+    
+    border-radius: 31px;
+    background: #B1A296;
+}
+.home div .buttonHome p{
+    margin-top: 13px;
+    margin-left: 15px;
+}
+.home div .homeImg{
+    width: 374px;
+    height: 437px;
+    flex-shrink: 0;
+}
+                                /* CARDS DE LA PÁGINA PRINCIPAL */
+.homeCards{
+    margin: 5%;
+}
+.homeCards .card{
+    border-radius: 13px;
+    background: rgba(225, 218, 204, 0.40);
+}
+.img-shadow{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 48.51%, rgba(0, 0, 0, 0.50) 77.38%);
+}
+.homeCards .imgCard .card-title{
+    color: #FFF;
+    margin-top: -30px;
+/* H3/Título Cards */
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 128.164%;
+}
+                                        /* TÍTULOS */
+.principalTitle{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    color: #B1A296;
+/* H1/Títulos principales */
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 128.164%;
+}
+.title2{
+    color: #B1A296;
+    font-weight: bold;
+    font-size: x-large;
+}
+.title3{
+    font-size: large;
+    font-weight: bold;
+    color: #B1A296;
+}
+.textoSubrayado{
+    text-decoration: underline;
+}
+.bodyQuienesSomos{
+    margin: 7%;
+}
+                                        /* CONTENTS */
+#center{
+    display: flex;
+    justify-content: center;
+}
+#grid-input-contacto{
+    display: grid;
+    grid-template-columns: 100px repeat(1fr, 1);
+}
+                                /* CARDS DE QUIÉNES SOMOS */
+.quienesSomosCardClara{
+    width: 1000px;
+    height: 421px;
+    flex-shrink: 0;
+
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    margin-bottom: 3%;
+    background: #e7dcc3;
+    display: grid;
+    grid-template-columns: repeat(2, 400px)1fr;
+}
+.quienesSomosCardClara img{
+    margin-left: 40%;
+    margin-top: 7%;
+}
+.quienesSomosCardClara div{
+    margin: 10%;
+    font-size: 110%;
+}
+.quienesSomosCardClara svg{
+    margin: 5%;
+    margin-top: 160%;
+    display: flex;   
+}
+.quienesSomosCardOscura{
+    width: 1000px;
+    height: 421px;
+    flex-shrink: 0;
+    float: right;
+
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+    margin-bottom: 3%;
+    background: #B1A296;
+    display: grid;
+    grid-template-columns: 1fr repeat(2, 400px);
+}
+.quienesSomosCardOscura img{
+    margin-right: 40%;
+    margin: 7%;
+}
+.quienesSomosCardOscura div{
+    margin: 10%;
+    font-size: 110%;
+    color: #FFFBF2;
+}
+.quienesSomosCardOscura svg{
+    margin-top: 160%;
+    margin-left: 50%;
+}
+                                            /* CARD CURSOS */
+#cardCursos{
+    background: rgba(225, 218, 204, 0.40);
+}
+#cardCursos h5{
+    color: #2E2C2A;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+#cardCursos .card-text{
+    float: inline-end;
+}
+                                        /* PÁGINA DE CURSOS */
+.headerCardCursos{
+    height: 420px;
+    background: rgba(225, 218, 204, 0.40);
+
+}
+.headerCardCursos .card{
+    float: right;
+    position: relative;
+    margin: 7%;
+    border-radius: 5%;
+}
+.headerCardCursos .title-card{
+    color: #2E2C2A;
+    font-family: Poppins;
+    font-size: 37px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 128.164%;
+    margin-top: 55px;
+}
+.high-card-text{
+    margin: 2%;
+}
+#curso-card-img{
+    width: 50%;
+}
+                                            /* BOTONES */
+.buttonLager{
+    width: 100%;
+    color: #FFFBF2;
+    font-family: Poppins;
+    font-size: 20px;
+    height: 30px;
+    border: transparent;
+
+    text-align: center;
+/* Botón/Principal */
+    font-style: normal;
+    font-weight: 500;
+    line-height: 128.164%;
+
+    border-radius: 31px;
+    background: #B1A296;
+}
+.buttonMedium{
+    color: #FFFBF2;
+    text-align: center;
+/* Botón/Principal */
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 128.164%;
+
+    width: 202px;
+    border-radius: 31px;
+    background: #B1A296;
+    border: transparent;
+    margin: 5%;
+}
+                                        /* ENCUESTA */
+.body-encuesta{
+    display: flex;
+    justify-content: center;
+}
+.body-encuesta .card-body{
+    margin: 3%;
+}
+.body-encuesta .col-md-4{
+    display: flex;
+    justify-content: center;
+}
+.button-encuesta{
+    display: flex;
+    justify-content: end;
+}
+                                        /* CONTACTO */
+.inputContacto{
+    width: 450px;
+    margin-left: 2%;
+    border-color: #AA998C;
+    border-radius: 15px;
+}
+.grid-contacto{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+                                            /* FOOTER */
+footer{
+    width: 100%;
+    height: 54px;
+    padding-top: 1%;
+    padding-right: 3%;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: end;
+
+    background: #B1A296;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+footer .footerLetter{
+    color: #FFFBF2;
+    padding-right: 5%;
+    padding-top: 2px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+footer .footerLogs{
+    width: 12%;
+}
+footer .footerLogs svg{
+    margin-left: 20px;
+}
