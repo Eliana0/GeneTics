@@ -18,7 +18,7 @@ function contacto(){
         }
     
           
-        /* else{
+        else{
           const formData= {
             nombre: nameContacto,
             mail: mailContacto,
@@ -38,5 +38,5 @@ function contacto(){
             .then(swal(`Su mensaje ha sido enviado correctamente`, {icon: "success",})) 
         }
           document.getElementById("formContacto").reset();
-         */})
+        })
       }contacto() 
