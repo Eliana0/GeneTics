@@ -211,6 +211,16 @@ header nav ul a:hover{
     margin-right: 40px;
     width: 250px;
 }
+.buttonMedium{
+    margin: 5%;
+    float: right;
+    color: #FFFBF2;
+    border-radius: 31px;
+    background: #B1A296;
+    border: transparent;
+    font-size: 20px;
+    width: 160px;
+}
                                         /*CURSOS */
 .headerCardCursos{
     margin: 2%;
@@ -248,6 +258,11 @@ header nav ul a:hover{
 #grid-input-contacto{
     display: grid;
     grid-template-columns: 100px repeat(1fr, 1);
+}
+.body-encuesta{
+    display: flex;
+    justify-content: center;
+    z-index: -1;
 }
                                 /* CARDS DE QUIÉNES SOMOS */                              
 .body-cards{
@@ -508,7 +523,15 @@ footer .footerLogs svg{
 
 }
 
+@media screen and (min-width: 990px) {
+    nav ul{
+        margin-top: 15px;
+    }
+}
 @media screen and (max-width: 990px) {
+    nav ul{
+        margin-top: -30px;
+    }
     .logoHeader{
         display: grid;
         grid-template-rows: repeat(1fr, 2);
@@ -518,8 +541,6 @@ footer .footerLogs svg{
         color: transparent;
         width: 20px;
     }
-}
-    @media screen and (max-width: 990px) {
     .headerCardCursos{
         margin: 2%;
         width: 66%;
