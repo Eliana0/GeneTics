@@ -233,11 +233,14 @@ header nav ul a:hover{
     padding-top: 70px;
 }
 .headerCardCursos .title-card{
-    color: #2E2C2A;
-    font-family: "Monserrat";
-    font-size: 38px;
+    width: 80%;
+    margin-bottom: 5%;
+    color: #B1A296;
+/* H1/Títulos principales */
+    font-size: 32px;
+    display: flex;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 128.164%;
 }
 .backgroundgrey{
@@ -524,7 +527,7 @@ footer .footerLogs{
     padding-top: 7px;
     width: 12%;
 }
-footer .footerLogs svg{
+footer .footerLogs a{
     margin-left: 20px;
 }
                                     /* @MEDIA */
@@ -554,14 +557,6 @@ footer .footerLogs svg{
         margin: 2%;
         width: 66%;
         padding-top: 70px;
-    }
-    .headerCardCursos .title-card{
-        color: #2E2C2A;
-        font-family: Poppins;
-        font-size: 43px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 128.164%;
     }
     .backgroundgrey{
         width: 100%;
